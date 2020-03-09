@@ -2,6 +2,19 @@
 // var parseJSON = JSON.parse;
 
 // but you're not, so you'll write it from scratch:
-var parseJSON = function(json) {
+var parseJSON = function (json) {
   // your code goes here
+  for (var i = 0; i < json.length; i++) {
+    var resp;
+    if (json[i] === '[') {
+      resp = [];
+    } else if (json[i] === "{") {
+      resp = {};
+    } else if (json[i] === '\"') {
+
+    }
+  }
+
 };
+
+// ["kjhsd,jk", 
